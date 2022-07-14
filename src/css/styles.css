@@ -181,3 +181,6 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--color-brand);
 }
+.text-center {
+  text-align: center !important;
+}
