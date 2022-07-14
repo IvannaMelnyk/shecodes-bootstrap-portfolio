@@ -170,3 +170,14 @@ img {
 #contact input.form-control {
   height: 44px;
 }
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--color-body);
+  padding: 10px 12px;
+  border-radius: 50%;
+  font-size: 32px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--color-brand);
+}
