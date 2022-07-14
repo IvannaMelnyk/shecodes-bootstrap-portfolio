@@ -82,6 +82,7 @@ img {
 .navbar .nav-link.active {
   color: var(--color-brand);
 }
+
 /*Navbar*/
 @media (min-width: 991px) {
   .navbar {
@@ -137,6 +138,19 @@ img {
 .link-custom:hover::after {
   width: 100%;
 }
+/* CARD */
+.card-custom .card-custom-image {
+  overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+  transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+  transform: scale(1.1);
+}
+
 /* CONTACT */
 #contact .form-control {
   background-color: var(--color-base);
